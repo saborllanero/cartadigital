@@ -8,10 +8,11 @@ $('#checkout').onsubmit=e=>{e.preventDefault();let reserve=$('#mode').value==='R
 
 const revealObserver=new IntersectionObserver(entries=>entries.forEach(e=>{if(e.isIntersecting){e.target.classList.add('revealed');revealObserver.unobserve(e.target)}}),{threshold:.08});document.querySelectorAll('.story,.location,.heroCopy').forEach(e=>{e.classList.add('reveal');revealObserver.observe(e)});window.addEventListener('scroll',()=>document.querySelector('header').classList.toggle('scrolled',window.scrollY>25),{passive:true});
 
-// Bienvenida: una vez por sesión de pestaña; no interrumpe un pedido en curso.
-const promoDialog=document.querySelector('#promoDialog');
-function dismissPromo(){try{sessionStorage.setItem('llaneroPromoSeenV1','1')}catch{}if(promoDialog.open)promoDialog.close()}
-promoDialog.addEventListener('close',()=>{try{sessionStorage.setItem('llaneroPromoSeenV1','1')}catch{}});
-document.querySelector('#promoOrder').onclick=()=>{dismissPromo();const product=menu.find(p=>p.name==='Piqueo Llanero 2');if(product)detail(product.id);else document.querySelector('#carta').scrollIntoView({behavior:'smooth'})};
-document.querySelector('#promoExplore').onclick=()=>{dismissPromo();document.querySelector('#carta').scrollIntoView({behavior:'smooth'})};
-window.addEventListener('load',()=>{let seen=false;try{seen=sessionStorage.getItem('llaneroPromoSeenV1')==='1'}catch{}if(!seen&&!cart.length&&!document.querySelector('dialog[open]'))setTimeout(()=>{if(!document.querySelector('dialog[open]'))promoDialog.showModal()},650)},{once:true});
+
+// Movimiento editorial: entradas escalonadas, progreso y tacto de las tarjetas.
+const reducedMotion=window.matchMedia('(prefers-reduced-motion: reduce)');
+const artObserver=new IntersectionObserver(entries=>entries.forEach(e=>{if(e.isIntersecting){e.target.classList.add('artVisible');artObserver.unobserve(e.target)}}),{threshold:.06});
+function watchCards(){document.querySelectorAll('.card:not([data-art])').forEach((card,i)=>{card.dataset.art='1';card.style.setProperty('--stagger',((i%3)*65)+'ms');artObserver.observe(card)})}
+const productMutations=new MutationObserver(watchCards);productMutations.observe(document.getElementById('products'),{childList:true,subtree:true});watchCards();
+let scrollTick=false;window.addEventListener('scroll',()=>{if(!scrollTick){requestAnimationFrame(()=>{const max=document.documentElement.scrollHeight-window.innerHeight;document.querySelector('.readingProgress').style.transform='scaleX('+(max>0?window.scrollY/max:0)+')';scrollTick=false});scrollTick=true}},{passive:true});
+if(window.matchMedia('(hover:hover) and (pointer:fine)').matches){document.getElementById('products').addEventListener('pointermove',e=>{const card=e.target.closest('.card');if(!card||reducedMotion.matches)return;const r=card.getBoundingClientRect();card.style.setProperty('--mx',((e.clientX-r.left)/r.width*100)+'%');card.style.setProperty('--my',((e.clientY-r.top)/r.height*100)+'%')})}

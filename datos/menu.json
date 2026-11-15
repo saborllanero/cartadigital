@@ -1,0 +1,522 @@
+[
+  {
+    "id": 0,
+    "category": "Cachapas",
+    "name": "Cachapa con queso de mano",
+    "price": 26,
+    "description": "Cachapa de maíz con queso de mano.",
+    "image": "img/p0.webp"
+  },
+  {
+    "id": 1,
+    "category": "Cachapas",
+    "name": "Cachapa con doble queso de mano",
+    "price": 36,
+    "description": "Cachapa de maíz con doble queso de mano.",
+    "image": "img/p1.webp"
+  },
+  {
+    "id": 2,
+    "category": "Cachapas",
+    "name": "Cachapa con queso de mano y carne en vara",
+    "price": 39,
+    "description": "Cachapa de maíz con queso de mano y carne en vara.",
+    "image": "img/p2.webp"
+  },
+  {
+    "id": 3,
+    "category": "Cachapas",
+    "name": "Cachapa con queso de mano y cochinito en vara",
+    "price": 39,
+    "description": "Cachapa de maíz con queso de mano y cochinito en vara.",
+    "image": "img/p3.webp"
+  },
+  {
+    "id": 4,
+    "category": "Cachapas",
+    "name": "Cachapa con queso de mano, carne y cochino en vara",
+    "price": 39,
+    "description": "Cachapa de maíz con queso de mano, carne y cochino en vara.",
+    "image": "img/p4.webp"
+  },
+  {
+    "id": 5,
+    "category": "Cachapas",
+    "name": "Cachapa con doble queso de mano, cochino y carne en vara",
+    "price": 46,
+    "description": "Cachapa de maíz con doble queso de mano, cochino y carne en vara.",
+    "image": "img/p5.webp"
+  },
+  {
+    "id": 6,
+    "category": "Cachapas",
+    "name": "Cachapa con queso de mano y jamón",
+    "price": 29,
+    "description": "Cachapa de maíz con queso de mano y jamón.",
+    "image": "img/p6.webp"
+  },
+  {
+    "id": 7,
+    "category": "Cachapas",
+    "name": "Cachapa con doble queso de mano y mechada",
+    "price": 46,
+    "description": "Cachapa de maíz con doble queso de mano y mechada.",
+    "image": "img/p7.webp"
+  },
+  {
+    "id": 8,
+    "category": "Cachapas",
+    "name": "Cachapa ½ queso de mano",
+    "price": 18,
+    "description": "Cachapa de maíz con media porción de queso de mano.",
+    "image": "img/p8.webp"
+  },
+  {
+    "id": 9,
+    "category": "Cachapas",
+    "name": "Cachapa con queso rallado",
+    "price": 20,
+    "description": "Cachapa de maíz con queso rallado.",
+    "image": "img/p9.webp"
+  },
+  {
+    "id": 10,
+    "category": "Cachapas",
+    "name": "Cachapa con queso rallado y carne en vara",
+    "price": 30,
+    "description": "Cachapa de maíz con queso rallado y carne en vara.",
+    "image": "img/p10.webp"
+  },
+  {
+    "id": 11,
+    "category": "Piqueo Llanero",
+    "name": "Piqueo Llanero 2",
+    "price": 60,
+    "description": "Carne y cochino en vara, mini cachapas con queso de mano, mix de tostones, aguacate y tiras de queso de mano.",
+    "image": "img/p11.webp"
+  },
+  {
+    "id": 12,
+    "category": "Piqueo Llanero",
+    "name": "Piqueo Llanero",
+    "price": 70,
+    "description": "Carne y cochino en vara, papas fritas, 4 cachapitas, tequeños, bollitos con queso de mano y tostones playeros.",
+    "image": "img/p12.webp"
+  },
+  {
+    "id": 13,
+    "category": "Especiales",
+    "name": "Arepa con carne en vara",
+    "price": 30,
+    "description": "Arepa con carne en vara.",
+    "image": "img/p13.webp"
+  },
+  {
+    "id": 14,
+    "category": "Especiales",
+    "name": "Patacón con carne en vara",
+    "price": 30,
+    "description": "Patacón con carne en vara.",
+    "image": "img/p14.webp"
+  },
+  {
+    "id": 15,
+    "category": "Especiales",
+    "name": "Pasticho de carne",
+    "price": 35,
+    "description": "Pasta fresca, boloñesa casera y bechamel cremosa, gratinado.",
+    "image": "img/p15.webp"
+  },
+  {
+    "id": 16,
+    "category": "Especiales",
+    "name": "Arepa con carne mechada",
+    "price": 25,
+    "description": "Con aguacate.",
+    "image": "img/p16.webp"
+  },
+  {
+    "id": 17,
+    "category": "Menú Infantil",
+    "name": "Nuggets de pollo",
+    "price": 15,
+    "description": "10 unidades con papas fritas.",
+    "image": "img/p17.webp"
+  },
+  {
+    "id": 18,
+    "category": "Menú Infantil",
+    "name": "Cachapa infantil",
+    "price": 15,
+    "description": "4 trozos con queso de mano y queso rallado.",
+    "image": "img/p18.webp"
+  },
+  {
+    "id": 19,
+    "category": "Carne en Vara",
+    "name": "Carne en Vara ¼ kg",
+    "price": 43,
+    "description": "Yuca, ensalada, chorizo, bollitos y guasacaca.",
+    "image": "img/p19.webp"
+  },
+  {
+    "id": 20,
+    "category": "Carne en Vara",
+    "name": "Carne en Vara ½ kg",
+    "price": 85,
+    "description": "Yuca, ensalada, chorizo, tajada con queso, arepas, bollitos y guasacaca.",
+    "image": "img/p20.webp"
+  },
+  {
+    "id": 21,
+    "category": "Carne en Vara",
+    "name": "Carne en Vara 1 kg",
+    "price": 165,
+    "description": "Yuca, ensalada, chorizo, tajada con queso, arepas, bollitos y guasacaca.",
+    "image": "img/p21.webp"
+  },
+  {
+    "id": 22,
+    "category": "Cochinito en Vara",
+    "name": "Cochinito en Vara ¼ kg",
+    "price": 43,
+    "description": "Yuca, ensalada, chorizo, bollitos y guasacaca.",
+    "image": "img/p22.webp"
+  },
+  {
+    "id": 23,
+    "category": "Cochinito en Vara",
+    "name": "Cochinito en Vara ½ kg",
+    "price": 85,
+    "description": "Yuca, ensalada, chorizo, tajada con queso, arepas, bollitos y guasacaca. Incluye aguacate.",
+    "image": "img/p23.webp"
+  },
+  {
+    "id": 24,
+    "category": "Cochinito en Vara",
+    "name": "Cochinito en Vara 1 kg",
+    "price": 165,
+    "description": "Yuca, ensalada, chorizo, tajada con queso, arepas, bollitos y guasacaca. Incluye aguacate.",
+    "image": "img/p24.webp"
+  },
+  {
+    "id": 25,
+    "category": "Parrilla Mar y Tierra",
+    "name": "Parrilla Mar y Tierra",
+    "price": 100,
+    "description": "Carne en vara, mixto de cochino y carne, chorizo, papas fritas, aguacate, tiritas de queso de mano y mariscos.",
+    "image": "img/p25.webp"
+  },
+  {
+    "id": 26,
+    "category": "Parrilla Mar y Tierra",
+    "name": "Parrilla Salto de Ángel",
+    "price": 160,
+    "description": "Pescado frito, carne en vara, mixto de cochino y carne, mariscos, tostones playeros, yuca sancochada y aguacate.",
+    "image": "img/p26.webp"
+  },
+  {
+    "id": 27,
+    "category": "Sopas",
+    "name": "Sopa de costilla",
+    "price": 20,
+    "description": "Sopa de costilla.",
+    "image": "img/p27.webp"
+  },
+  {
+    "id": 28,
+    "category": "Sopas",
+    "name": "Sopa de mondongo",
+    "price": 20,
+    "description": "Solo los domingos.",
+    "image": "img/p28.webp"
+  },
+  {
+    "id": 29,
+    "category": "Entradas",
+    "name": "Tequeños con queso · 6 unidades",
+    "price": 15,
+    "description": "Tequeños rellenos de queso. 6 unidades.",
+    "image": "img/p29.webp"
+  },
+  {
+    "id": 30,
+    "category": "Entradas",
+    "name": "Tequeños con queso · 12 unidades",
+    "price": 25,
+    "description": "Tequeños rellenos de queso. 12 unidades.",
+    "image": "img/p30.webp"
+  },
+  {
+    "id": 31,
+    "category": "Entradas",
+    "name": "Tostones caribeños",
+    "price": 15,
+    "description": "Con queso y ensalada.",
+    "image": "img/p31.webp"
+  },
+  {
+    "id": 32,
+    "category": "Postres",
+    "name": "Quesillo",
+    "price": 10,
+    "description": "Postre tipo flan con caramelo.",
+    "image": "img/p32.webp"
+  },
+  {
+    "id": 33,
+    "category": "Postres",
+    "name": "Dulce de lechoza",
+    "price": 10,
+    "description": "Dulce tradicional de lechoza (papaya).",
+    "image": "img/p33.webp"
+  },
+  {
+    "id": 34,
+    "category": "Postres",
+    "name": "Dulce de leche",
+    "price": 10,
+    "description": "Postre dulce a base de leche.",
+    "image": "img/p34.webp"
+  },
+  {
+    "id": 35,
+    "category": "Postres",
+    "name": "Torta de piña",
+    "price": 10,
+    "description": "Torta con piña.",
+    "image": "img/p35.webp"
+  },
+  {
+    "id": 36,
+    "category": "Postres",
+    "name": "Besitos de coco",
+    "price": 10,
+    "description": "Dulces de coco.",
+    "image": "img/p36.webp"
+  },
+  {
+    "id": 37,
+    "category": "Postres",
+    "name": "Casabe",
+    "price": 10,
+    "description": "Pan crujiente de yuca.",
+    "image": "img/p37.webp"
+  },
+  {
+    "id": 38,
+    "category": "Bebidas",
+    "name": "Papelón con limón 1 L",
+    "price": 15,
+    "description": "Bebida de papelón con limón. Presentación de 1 L.",
+    "image": "img/p38.webp"
+  },
+  {
+    "id": 39,
+    "category": "Bebidas",
+    "name": "Papelón con limón ½ L",
+    "price": 8,
+    "description": "Bebida de papelón con limón. Presentación de ½ L.",
+    "image": "img/p39.webp"
+  },
+  {
+    "id": 40,
+    "category": "Bebidas",
+    "name": "Pepsi 600 ml",
+    "price": 5,
+    "description": "Pepsi 600 ml. Bebida envasada.",
+    "image": "img/p40.webp"
+  },
+  {
+    "id": 41,
+    "category": "Bebidas",
+    "name": "Pepsi 1 L",
+    "price": 7,
+    "description": "Pepsi 1 L. Bebida envasada.",
+    "image": "img/p41.webp"
+  },
+  {
+    "id": 42,
+    "category": "Bebidas",
+    "name": "Pepsi 1½ L",
+    "price": 10,
+    "description": "Pepsi 1½ L. Bebida envasada.",
+    "image": "img/p42.webp"
+  },
+  {
+    "id": 43,
+    "category": "Bebidas",
+    "name": "Pepsi 2 L",
+    "price": 12,
+    "description": "Pepsi 2 L. Bebida envasada.",
+    "image": "img/p43.webp"
+  },
+  {
+    "id": 44,
+    "category": "Bebidas",
+    "name": "Seven Up 500 ml",
+    "price": 4,
+    "description": "Seven Up 500 ml. Bebida envasada.",
+    "image": "img/p44.webp"
+  },
+  {
+    "id": 45,
+    "category": "Bebidas",
+    "name": "Seven Up 1½ L",
+    "price": 10,
+    "description": "Seven Up 1½ L. Bebida envasada.",
+    "image": "img/p45.webp"
+  },
+  {
+    "id": 46,
+    "category": "Bebidas",
+    "name": "Malta",
+    "price": 12,
+    "description": "Malta. Bebida envasada.",
+    "image": "img/p46.webp"
+  },
+  {
+    "id": 47,
+    "category": "Bebidas",
+    "name": "Frescolita",
+    "price": 12,
+    "description": "Frescolita. Bebida envasada.",
+    "image": "img/p47.webp"
+  },
+  {
+    "id": 48,
+    "category": "Bebidas",
+    "name": "Agua",
+    "price": 3,
+    "description": "Agua. Bebida envasada.",
+    "image": "img/p48.webp"
+  },
+  {
+    "id": 49,
+    "category": "Bebidas",
+    "name": "Coca-Cola o Inca Kola",
+    "price": 6,
+    "description": "Indica tu elección en observaciones.",
+    "image": "img/p49.webp"
+  },
+  {
+    "id": 50,
+    "category": "Bebidas",
+    "name": "Cerveza Tres Cruces",
+    "price": 8,
+    "description": "Cerveza Tres Cruces. Bebida alcohólica. Solo para mayores de edad.",
+    "image": "img/p50.webp"
+  },
+  {
+    "id": 51,
+    "category": "Bebidas",
+    "name": "Heineken",
+    "price": 10,
+    "description": "Heineken. Bebida alcohólica. Solo para mayores de edad.",
+    "image": "img/p51.webp"
+  },
+  {
+    "id": 52,
+    "category": "Bebidas",
+    "name": "Cerveza Polar",
+    "price": 13,
+    "description": "Cerveza Polar. Bebida alcohólica. Solo para mayores de edad.",
+    "image": "img/p52.webp"
+  },
+  {
+    "id": 53,
+    "category": "Bebidas",
+    "name": "Smirnoff",
+    "price": 12,
+    "description": "Smirnoff. Bebida alcohólica. Solo para mayores de edad.",
+    "image": "img/p53.webp"
+  },
+  {
+    "id": 54,
+    "category": "Bebidas",
+    "name": "Fresa ½ L",
+    "price": 10,
+    "description": "Jugo de fresa. Presentación de ½ L.",
+    "image": "img/p54.webp"
+  },
+  {
+    "id": 55,
+    "category": "Bebidas",
+    "name": "Fresa 1 L",
+    "price": 20,
+    "description": "Jugo de fresa. Presentación de 1 L.",
+    "image": "img/p55.webp"
+  },
+  {
+    "id": 56,
+    "category": "Bebidas",
+    "name": "Parchita ½ L",
+    "price": 10,
+    "description": "Jugo de parchita (maracuyá). Presentación de ½ L.",
+    "image": "img/p56.webp"
+  },
+  {
+    "id": 57,
+    "category": "Bebidas",
+    "name": "Parchita 1 L",
+    "price": 20,
+    "description": "Jugo de parchita (maracuyá). Presentación de 1 L.",
+    "image": "img/p57.webp"
+  },
+  {
+    "id": 58,
+    "category": "Bebidas",
+    "name": "Maracumango ½ L",
+    "price": 10,
+    "description": "Jugo de maracuyá y mango. Presentación de ½ L.",
+    "image": "img/p58.webp"
+  },
+  {
+    "id": 59,
+    "category": "Bebidas",
+    "name": "Maracumango 1 L",
+    "price": 20,
+    "description": "Jugo de maracuyá y mango. Presentación de 1 L.",
+    "image": "img/p59.webp"
+  },
+  {
+    "id": 60,
+    "category": "Bebidas",
+    "name": "Limonada ½ L",
+    "price": 10,
+    "description": "Bebida de limón. Presentación de ½ L.",
+    "image": "img/p60.webp"
+  },
+  {
+    "id": 61,
+    "category": "Bebidas",
+    "name": "Limonada 1 L",
+    "price": 20,
+    "description": "Bebida de limón. Presentación de 1 L.",
+    "image": "img/p61.webp"
+  },
+  {
+    "id": 62,
+    "category": "Platos a la Carta",
+    "name": "Pabellón criollo + vaso de papelón",
+    "price": 25,
+    "description": "Carne mechada, caraotas negras, arroz, huevo frito, aguacate y tajadas.",
+    "image": "img/p62.webp"
+  },
+  {
+    "id": 63,
+    "category": "Platos a la Carta",
+    "name": "Chuleta ahumada + vaso de papelón",
+    "price": 25,
+    "description": "Arroz, tajadas, ensalada y papas fritas.",
+    "image": "img/p63.webp"
+  },
+  {
+    "id": 64,
+    "category": "Platos a la Carta",
+    "name": "Churrasco a la plancha + vaso de papelón",
+    "price": 25,
+    "description": "Arroz, papas fritas, tajadas y ensalada rallada.",
+    "image": "img/p64.webp"
+  }
+]

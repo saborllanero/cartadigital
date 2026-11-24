@@ -1,5 +1,29 @@
 [
   {
+    "id": 29,
+    "category": "Entradas",
+    "name": "Tequeños con queso · 6 unidades",
+    "price": 15,
+    "description": "Tequeños rellenos de queso. 6 unidades.",
+    "image": "img/p29.webp"
+  },
+  {
+    "id": 30,
+    "category": "Entradas",
+    "name": "Tequeños con queso · 12 unidades",
+    "price": 25,
+    "description": "Tequeños rellenos de queso. 12 unidades.",
+    "image": "img/p30.webp"
+  },
+  {
+    "id": 31,
+    "category": "Entradas",
+    "name": "Tostones caribeños",
+    "price": 15,
+    "description": "Con queso y ensalada.",
+    "image": "img/p31.webp"
+  },
+  {
     "id": 0,
     "category": "Cachapas",
     "name": "Cachapa con queso de mano",
@@ -216,6 +240,22 @@
     "image": "img/p26.webp"
   },
   {
+    "id": 65,
+    "category": "Parrillas",
+    "name": "Parrilla criolla",
+    "price": 120,
+    "description": "Kilo de carne con yuca, casabe, chorizo y ensalada.",
+    "image": "img/p65.webp"
+  },
+  {
+    "id": 66,
+    "category": "Parrillas",
+    "name": "Parrilla criolla · Medio kilo",
+    "price": 65,
+    "description": "Medio kilo de carne con yuca, casabe, chorizo y ensalada.",
+    "image": "img/p65.webp"
+  },
+  {
     "id": 27,
     "category": "Sopas",
     "name": "Sopa de costilla",
@@ -230,30 +270,6 @@
     "price": 20,
     "description": "Solo los domingos.",
     "image": "img/p28.webp"
-  },
-  {
-    "id": 29,
-    "category": "Entradas",
-    "name": "Tequeños con queso · 6 unidades",
-    "price": 15,
-    "description": "Tequeños rellenos de queso. 6 unidades.",
-    "image": "img/p29.webp"
-  },
-  {
-    "id": 30,
-    "category": "Entradas",
-    "name": "Tequeños con queso · 12 unidades",
-    "price": 25,
-    "description": "Tequeños rellenos de queso. 12 unidades.",
-    "image": "img/p30.webp"
-  },
-  {
-    "id": 31,
-    "category": "Entradas",
-    "name": "Tostones caribeños",
-    "price": 15,
-    "description": "Con queso y ensalada.",
-    "image": "img/p31.webp"
   },
   {
     "id": 32,
